@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(171, 177, 118);
+}
+.parent{
+     display: flex;
+     justify-content: space-around;
+     border: 2px  solid black;
+     margin: 30px;
+     padding: 10px 20px;
+     box-shadow: 5px 10px 8px 5px gray;
+     
+}
+.chiid{
+    background-color: black;
+}
+.img{
+    width: 300px;
+    height: 300px;
+    margin: 2px;
+    border-radius: 20px;
+}
+.parent1{
+    display: flex;
+    justify-content: space-around;
+    border: 2px  solid black;
+    margin: 30px;
+    padding: 10px 20px;
+    box-shadow: 5px 10px 8px 5px gray;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    
+}
+button{
+    background-color: maroon;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    padding: 10px;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(35, 155, 211);
+
+}
+
+button:focus{
+    background-color: rgb(13, 13, 14);
+}
+
+
